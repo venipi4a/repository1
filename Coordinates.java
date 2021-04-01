@@ -16,10 +16,10 @@ public class Coordinates {
         System.out.println("yb = ");
         int yb = scan.nextInt();
 
-        int A = xa + ya;
-        int B = xb + yb;
+        int a = xa + ya;
+        int b = xb + yb;
 
-        int length = Math.abs(A - B);
+        int length = Math.abs(a - b);
         System.out.println(length);
     }
 }
